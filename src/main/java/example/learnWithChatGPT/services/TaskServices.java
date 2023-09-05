@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface TaskServices {
     List<Task> findAllTasks();
+
+    ResponseEntity<Task> findById(Long id);
 }
